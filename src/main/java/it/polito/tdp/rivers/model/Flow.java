@@ -6,7 +6,13 @@ public class Flow {
 	private LocalDate day;
 	private double flow;
 	private River river;
-
+	/**
+	 * 
+	 * @param day day
+	 * @param flow flow
+	 * @param river river
+	 */
+	
 	public Flow(LocalDate day, double flow, River river) {
 		this.day = day;
 		this.flow = flow;
